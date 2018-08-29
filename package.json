@@ -14,14 +14,14 @@
     "react-native": "https://github.com/expo/react-native/archive/sdk-25.0.0.tar.gz"
   },
   "devDependencies": {
-    "detox": "^5.6.1",
+    "detox": "^6.0.2",
     "detox-expo-helpers": "^0.1.1",
     "mocha": "^3.5.0"
   },
   "detox": {
     "configurations": {
       "ios.sim": {
-        "binaryPath": "bin/Exponent-1.19.0.app",
+        "binaryPath": "bin/Exponent-2.7.2.app",
         "type": "ios.simulator",
         "name": "iPhone 7"
       }
